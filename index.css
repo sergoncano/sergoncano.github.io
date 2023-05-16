@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+@font-face {
+    font-family: ds-font;
+    src: url('OptimusPrinceps.ttf');
+}
+
+.DS {
+    font-family: ds-font;
+}
+
+.disclaimer {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+h2 {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
